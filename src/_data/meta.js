@@ -1,0 +1,14 @@
+import 'dotenv/config'
+
+export default {
+  env: process.env.NODE_ENV,
+  url: process.env.URL || 'http://localhost:8080',
+  en: {
+    title: 'Ekaterina Maltseva',
+    description: 'Frontend Engineer',
+  },
+  ru: {
+    title: 'Екатерина Мальцева',
+    description: 'Фронтенд разработчица',
+  },
+}

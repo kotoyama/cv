@@ -1,0 +1,14 @@
+@import './tailwind.css';
+@import './fonts.css';
+@import './vars.css';
+
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
